@@ -1,0 +1,27 @@
+.card {
+  opacity: 0.9;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+// Bootstrap Functions
+@import "argon-dashboard/bootstrap/functions";
+
+// Custom Variables
+@import "argon-dashboard/custom/variables";
+
+// Theme Variables
+@import "argon-dashboard/variables";
+
+// Bootstrap Core
+@import "argon-dashboard/bootstrap/bootstrap";
+
+// Theme Core
+@import "argon-dashboard/theme-pro";
+
+// Custom Variables
+@import "argon-dashboard/custom/styles";
